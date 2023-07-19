@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 08;
+}
+
+body{
+    background-color: antiquewhite;
+    padding: 50px;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 20px;
+}
+
+.total{
+    background-color: aqua;
+    border: 2px solid black;
+    padding-left: 10px;
+    width: 100px;
+}
+
+main{
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    gap: 20px;
+}
+
+form{
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    background-color: azure;
+    max-width: 150px;
+}
+
+button{
+    background-color: blueviolet;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+}
+
+.reinicia{
+    display: flex;
+    align-items:center;
+}
+
+.titulo{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.mensajes{
+    background-color: powderblue;
+    height: 150px;
+    max-height: 170px;
+    padding: 20px;
+    font-size: 20px;
+    overflow: scroll;
+}
